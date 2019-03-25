@@ -1,2 +1,5 @@
 ---
-# tasks file for linux_borgbackup
+- name: Install borg backup and related components (Debian)...
+  become: yes
+  apt: name=borgbackup state=latest
+  when: ansible_os_family == 'Debian'
