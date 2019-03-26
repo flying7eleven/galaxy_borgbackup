@@ -1,7 +1,7 @@
-linux_borgbackup
-================
+galaxy_borgbackup
+=================
 
-This role can be used to install and set up `borg` (a backup tool) on your linux computer. 
+This role can be used to install and set up `borg` (a backup tool) on your linux computer.
 
 Requirements
 ------------
@@ -26,7 +26,7 @@ Including an example of how to use your role (for instance, with variables passe
     - hosts: localhost
       connection: local
       roles:
-         - linux_borgbackup
+         - galaxy_borgbackup
 
 License
 -------
